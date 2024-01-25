@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS fj; 
+
+CREATE TABLE IF NOT EXISTS clientes (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    telefone VARCHAR(20) NOT NULL,
+    coordenada_x FLOAT NOT NULL,
+    coordenada_y FLOAT NOT NULL
+);
