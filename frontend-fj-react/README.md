@@ -4,6 +4,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## CONFIGURAÇÃO DAS VARIÁVEIS DO ENDPOINT
+
+Para configurar o arquivo `.env` com base no `.env.example`, siga estas orientações:
+
+1. **Crie o arquivo `.env`**: Comece criando um arquivo chamado `.env` na raiz do seu projeto.
+
+2. **Copie as variáveis**: Copie as variáveis do arquivo `.env.example` para o arquivo `.env`.
+
+Por exemplo:
+
+```dotenv
+REACT_APP_API_ENDPOINT=http://localhost:8000
+```
+
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
